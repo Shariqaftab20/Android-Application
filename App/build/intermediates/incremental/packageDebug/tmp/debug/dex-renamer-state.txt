@@ -1,0 +1,4 @@
+#Sat May 08 14:27:40 IST 2021
+base.0=C\:\\Users\\Shariq Aftab\\Documents\\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (C) 2016 The Android Open Source Project
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.miwok"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="15"
+23-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="23" />
+24-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml
+25
+26    <application
+26-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:19:5-44:19
+27        android:allowBackup="true"
+27-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:20:9-35
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:21:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:22:9-41
+31        android:supportsRtl="true"
+31-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:23:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:24:9-40
+34        <activity android:name="com.example.android.miwok.MainActivity" >
+34-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:25:9-31:20
+34-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:25:19-47
+35            <intent-filter>
+35-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:26:13-30:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:27:17-69
+36-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:27:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:29:17-77
+38-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:29:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:32:9-34:56
+42            android:name="com.example.android.miwok.NumbersActivity"
+42-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:33:13-44
+43            android:label="@string/category_numbers" />
+43-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:34:13-53
+44        <activity
+44-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:35:9-37:55
+45            android:name="com.example.android.miwok.FamilyActivity"
+45-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:36:13-43
+46            android:label="@string/category_family" />
+46-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:37:13-52
+47        <activity
+47-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:38:9-40:55
+48            android:name="com.example.android.miwok.ColorsActivity"
+48-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:39:13-43
+49            android:label="@string/category_colors" />
+49-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:40:13-52
+50        <activity
+50-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:41:9-43:56
+51            android:name="com.example.android.miwok.PhrasesActivity"
+51-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:42:13-44
+52            android:label="@string/category_phrases" />
+52-->C:\Users\Shariq Aftab\Documents\ud839_Miwok-c4098ace79330648c2d47bcb976d4f27218d0898\app\src\main\AndroidManifest.xml:43:13-53
+53    </application>
+54
+55</manifest>
